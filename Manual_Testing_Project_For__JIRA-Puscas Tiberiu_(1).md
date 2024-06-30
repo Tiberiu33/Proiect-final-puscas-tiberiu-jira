@@ -121,7 +121,10 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 
 The following is a summary of the bugs that have been found:
 
-**(Insert a list of the identified bugs along with their priority and severity.)**
+**(Failure to change gender priority medium
+Login functionality rejects valid credentials priority medium
+
+Account deletion functionality is not working properly priority medium.)**
 
 Full regression testing is needed on the impacted areas after the bugs are fixed, and retesting will be done for every functionality that previously failed.
 
