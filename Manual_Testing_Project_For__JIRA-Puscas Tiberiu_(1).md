@@ -1,116 +1,148 @@
-<h1>Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+# Testing Project for **JIRA**
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
+The scope of the final project for the ITF Manual Testing Course is to use all the knowledge gained throughout the course and apply it in practice, using a live application.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+**Application under test**: SPOTIFY
 
-Tools used: Jira, Zephyr Squad.
+**Tools used**: Jira, Zephyr Squad
 
-<h2>Functional specifications:</h2>
+## Functional specifications
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+The below story was created in Jira and describes the functional specifications of the "**User experience and profile security**" module, for which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+**Insert the image of the story/stories here (if you have more than two stories, it is recommended to download the stories from Jira and upload them as a file).**
 
 Here you can find the release that was created for this project:
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+**Insert the image of the release created in Jira. Note: The release should only contain epics, stories, tasks, subtasks, and bugs, but not tests.**
 
-<h2>Testing process</h2>
+## Testing process
 
 The test process was performed based on the standard test process as described below.
 
-<h3>1.1 Test planning</h3>
+### 1.1 Test planning
 
 The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here: **Insert the link to the test plan document**
 
-<h4>1.1.1. Roles asigned to the project and persons allocated</h4>
+#### 1.1.1 Roles assigned to the project and persons allocated
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
-<ul>
-  <li>Project manager</li> 
-  <li>Product owner</li>
-  <li>Software developer</li>
-  <li>QA Engineer</li>
-</ul>
+* Project Manager: [Name]
+* Product Owner: [Name]
+* Software Developer: [Name]
+* QA Engineer: [Your Name]
 
-<h4> 1.1.2 Entry criteria defined </h4>
+#### 1.1.2 Entry criteria defined
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+* Requirements have been defined and approved.
+* Test environment is set up and stable.
+* Test data is available and prepared.
+* Access to necessary tools and resources.
+* Development is complete and code is deployed to test environment.
 
-<h4> 1.1.3 Exit criteria defined </h4>
+#### 1.1.3 Exit criteria defined
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+* All planned test cases have been executed.
+* All critical and major bugs have been fixed or have acceptable workarounds.
+* Test summary report is prepared and reviewed.
+* No open critical defects.
+* Acceptance criteria met as defined in the test plan.
 
-<h4> 1.1.4 Test scope</h4>
+#### 1.1.4 Test scope
 
-<h5> Tests in scope: </h5>
+**Tests in scope:**
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+* Functional testing of user login and registration.
+* Testing playlist creation and management.
+* Verifying search functionality.
+* Ensuring song playback works as expected.
+* Security testing for profile updates, password changes, and two-factor authentication.
+* Testing account deletion and privacy settings.
+* Testing session management and notifications.
 
-<h5>Tests not in scope: </h5>
+**Tests not in scope:**
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+* Load and performance testing.
+* Testing on legacy or unsupported browsers/devices.
+* End-to-end testing with external integrations.
+* UI/UX design assessments not related to functionality.
 
-<h4>1.1.5 Risks detected</h4>
+#### 1.1.5 Risks detected
 
-<h5>Project risks:</h5>
+**Project risks:**
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+* Delays in test environment setup.
+* Insufficient test data availability.
+* Changes in requirements during testing phase.
 
-<h5> Product risks: </h5>
+**Product risks:**
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+* Potential security vulnerabilities in profile management.
+* Functional bugs affecting user experience.
+* Performance issues under high load conditions.
 
-<h4>1.1.6 Evaluating entry criteria</h4>
+#### 1.1.6 Evaluating entry criteria
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+### 1.2 Test Monitoring and Control
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+**Insert the reason for the monitoring and control stage and how it was conducted. Include the test status report from Zephyr - test metrics reflecting the activity and progress of the testing.**
 
-<h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+### 1.3 Test Analysis
 
-The following test conditions were found: <br>
+The testing process will be executed based on the application requirements. **(The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - insert the link to the review document if applicable.)**
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+The following test conditions were found:
 
-<h3>1.4 Test Design</h3>
+**(Insert either a screenshot from Jira with the titles of all tests or list each identified test condition.)**
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+### 1.4 Test Design
 
-<h3>1.5 Test Implementation</h3>
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here: **Insert the link to the test cases document in PDF, Word, or CSV format.**
 
-The following elements are needed to be ready before the test execution phase begins:
+### 1.5 Test Implementation
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+The following elements need to be ready before the test execution phase begins:
 
-<h3>1.6. Test Execution </h3>
+* Test environment setup.
+* Test data preparation.
+* Test scripts reviewed and approved.
+* Test tools configured and validated.
+* Access to necessary resources ensured.
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+### 1.6 Test Execution
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Test cases are executed on the created test Cycle summary: **Insert the name of the created test cycle.**
 
-The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+Bugs have been created based on the failed tests. The complete bug reports can be found here: **Insert the link to the document with the identified bugs.**
 
-Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
+The following is a summary of the bugs that have been found:
 
-1.7 Test Completion
-As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+**(Insert a list of the identified bugs along with their priority and severity.)**
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+Full regression testing is needed on the impacted areas after the bugs are fixed, and retesting will be done for every functionality that previously failed.
 
-Test execution chart was generated and can be found below. 
+### 1.7 Test Completion
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
+The traceability matrix was generated and can be found here: **Insert either a screenshot of the traceability matrix from Jira or a link to the exported Excel file with the traceability matrix. Ensure filtering by type = story.**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+Test execution chart was generated and can be found below:
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+**Insert the test execution report generated from Jira from the dashboards section.**
+
+The final report shows that a number **(Insert the number of tests)** tests have failed out of a total of **(Insert the number of tests)** tests.
+
+A total of **(Insert the number of bugs)** bugs were found, from which **(Insert the number of high-priority bugs)** are high and **(Insert the number of medium-priority bugs)** are medium.
+
+**General conclusion of the testing**:
+
+* **Total tests created and executed**: (5)
+* **Percentage of requirements in scope covered**: (100)
+* **Impact of identified bugs on product launch**: (Describe if bugs impact launch or can be fixed post-launch)
+* **Identified product risks and mitigation**: (Describe risks and mitigation strategies)
+* **Recommendations for product launch**: (Provide any recommendations)
+* **Lessons learned for future projects**: (Share any lessons learned)
