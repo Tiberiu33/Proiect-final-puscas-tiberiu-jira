@@ -28,10 +28,10 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.1 Roles assigned to the project and persons allocated
 
-* Project Manager: [Name]
-* Product Owner: [Name]
-* Software Developer: [Name]
-* QA Engineer: [Your Name]
+* Project Manager: [Mark Hamlin]
+* Product Owner: [George Marian]
+* Software Developer: [Puscas Tiberiu]
+* QA Engineer: [Puscas Tiberiu]
 
 #### 1.1.2 Entry criteria defined
 
@@ -106,7 +106,8 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 
 The following elements need to be ready before the test execution phase begins:
 
-* Test environment setup.
+* Test environment setup.![test cases](https://github.com/Tiberiu33/Proiect-final-puscas-tiberiu-jira/assets/167067779/228d807f-58f7-4152-b808-d588c38c9907)
+
 * Test data preparation.
 * Test scripts reviewed and approved.
 * Test tools configured and validated.
@@ -134,7 +135,7 @@ Test execution chart was generated and can be found below:
 
 **Insert the test execution report generated from Jira from the dashboards section.**
 
-The final report shows that a number **(Insert the number of tests)** tests have failed out of a total of **(Insert the number of tests)** tests.
+The final report shows that a number **(5)** tests have failed out of a total of **(Insert the number of tests)** tests.
 
 A total of **(Insert the number of bugs)** bugs were found, from which **(Insert the number of high-priority bugs)** are high and **(Insert the number of medium-priority bugs)** are medium.
 
