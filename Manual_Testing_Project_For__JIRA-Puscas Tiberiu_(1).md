@@ -96,7 +96,8 @@ The testing process will be executed based on the application requirements. **(T
 
 The following test conditions were found:
 
-**(Insert either a screenshot from Jira with the titles of all tests or list each identified test condition.)**
+**(![test cases](https://github.com/Tiberiu33/Proiect-final-puscas-tiberiu-jira/assets/167067779/228d807f-58f7-4152-b808-d588c38c9907)
+)**
 
 ### 1.4 Test Design
 
@@ -106,8 +107,7 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 
 The following elements need to be ready before the test execution phase begins:
 
-* Test environment setup.![test cases](https://github.com/Tiberiu33/Proiect-final-puscas-tiberiu-jira/assets/167067779/228d807f-58f7-4152-b808-d588c38c9907)
-
+* Test environment setup.
 * Test data preparation.
 * Test scripts reviewed and approved.
 * Test tools configured and validated.
