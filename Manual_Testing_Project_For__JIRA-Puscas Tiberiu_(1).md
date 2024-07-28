@@ -101,7 +101,7 @@ Test Conditions Found:
 
 Functional test cases were created in Zephyr Squad based on the specifications analysis.
 
-Test Cases Document: [Insert link to the test cases document]
+Test Cases Document: 
 1.5 Test Implementation
 
 The following elements need to be ready before the test execution phase begins:
@@ -111,7 +111,8 @@ The following elements need to be ready before the test execution phase begins:
     Access to necessary tools (Jira, Zephyr Squad).
     Assignment of test cases to testers.
 
-1.6 Test Execution
+
+1.6 Test Execution (https://github.com/user-attachments/files/16404553/PDF.Jira.pdf)
 
 Test cases were executed in the created test cycle summary: "Spotify User Module Cycle"
 
