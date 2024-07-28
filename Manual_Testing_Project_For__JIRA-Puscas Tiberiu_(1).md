@@ -6,15 +6,12 @@ The scope of the final project for the ITF Manual Testing Course is to use all t
 Application under test: Spotify
 
 Tools used: Jira, Zephyr Squad
-![screenshot of story and epic and all the elements in the project](https://github.com/user-attachments/assets/fa0eec05-abf1-489a-b41e-29b0ce78a3e8)
 
 Functional specifications:
 The below story describes the functional specifications of the "User Module," for which the final project is performed upon.
 
-[Insert story images or provide a download link to the stories if more than two]
-
-Release created for this project:
-[screenshot of story and epic and all the elements in the project](https://github.com/user-attachments/assets/fa0eec05-abf1-489a-b41e-29b0ce78a3e8)
+Story and Release Details:
+![Story and Release Details]( /mnt/data/screenshot of story and epic and all the elements in the project.png)
 Testing Process
 
 The test process was performed based on the standard test process as described below.
@@ -28,7 +25,7 @@ Test Plan Document: [Insert link to the test plan document]
     Project Manager: John Doe
     Product Owner: Jane Smith
     Software Developer: Bob Brown
-    QA Engineer: Puscas Tiberiu
+    QA Engineer: [Your Name]
 
 1.1.2 Entry Criteria Defined
 
