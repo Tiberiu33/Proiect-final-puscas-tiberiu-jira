@@ -78,7 +78,8 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 
 The monitoring and control phase ensures the test process is on track and any deviations are addressed promptly. The status report reflects the activity and progress of testing.
 
-Test Status Report: ![test status](https://github.com/user-attachments/assets/7ee13eaa-a007-497d-b841-814bb4fbea31)
+Test Status Report: (https://github.com/user-attachments/assets/43b15eef-e19a-46fe-93cf-fedf2b07e91f)
+
 1.3 Test Analysis
 
 
@@ -118,7 +119,9 @@ Test cases were executed in the created test cycle summary: "Spotify User Module
 
 Bugs have been created based on the failed tests.
 
-Bug Reports Document: [Insert link to the bug reports document]
+Bug Reports Document: [PT-27-1.pdf](https://github.com/user-attachments/files/16404569/PT-27-1.pdf)
+[PT-28.pdf](https://github.com/user-attachments/files/16404570/PT-28.pdf)
+
 
 Summary of Bugs Found:
 
