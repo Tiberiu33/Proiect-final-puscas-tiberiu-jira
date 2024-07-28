@@ -87,7 +87,8 @@ The testing process was executed based on the application requirements. The requ
 ### 1.4 Test Design
 Functional test cases were created in Zephyr Squad based on the specifications analysis.
 
-**Test Cases Document:** [Test Cases](link-to-test-cases-document)
+**Test Cases Document:** [Test Cases](https://github.com/user-attachments/files/16404693/ZFJ-issue-export-07-28-2024-af3637fffffecf9-0001.xlsx)
+
 
 ### 1.5 Test Implementation
 The following elements need to be ready before the test execution phase begins:
