@@ -1,4 +1,5 @@
 Final Project Report for ITF Manual Testing Course
+
 Introduction
 
 The scope of the final project for the ITF Manual Testing Course is to use all the knowledge gained throughout the course and apply it in practice using a live application.
