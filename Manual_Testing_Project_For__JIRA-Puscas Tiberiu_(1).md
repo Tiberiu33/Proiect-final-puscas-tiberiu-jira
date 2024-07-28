@@ -1,4 +1,4 @@
-Final Project Report for ITF Manual Testing Course
+Testing Project for Spotify
 Introduction
 
 The scope of the final project for the ITF Manual Testing Course is to use all the knowledge gained throughout the course and apply it in practice using a live application.
