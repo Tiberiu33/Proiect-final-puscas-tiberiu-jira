@@ -11,7 +11,8 @@ Functional specifications:
 The below story describes the functional specifications of the "User Module," for which the final project is performed upon.
 
 Story and Release Details:
-![Story and Release Details](https://github.com/user-attachments/assets/78b6b2f8-9117-4ebe-a553-8f7d4a81b981)
+![Story and Release Details]![screenshot of story and epic and all the elements in the project](https://github.com/user-attachments/assets/dd2d4836-dabb-4ec1-9d20-ff99c1ab859b)
+
 
 Testing Process
 
@@ -20,13 +21,13 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the Spotify application. The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
 
-Test Plan Document: [Insert link to the test plan document]
+Test Plan Document: (https://filebin.net/unzrqz3onxjd2stp)
 1.1.1 Roles Assigned to the Project and Persons Allocated
 
     Project Manager: John Doe
     Product Owner: Jane Smith
     Software Developer: Bob Brown
-    QA Engineer: [Your Name]
+    QA Engineer: [Puscas Tiberiu]
 
 1.1.2 Entry Criteria Defined
 
@@ -77,8 +78,9 @@ The entry criteria defined in the Test Planning phase have been achieved, and th
 
 The monitoring and control phase ensures the test process is on track and any deviations are addressed promptly. The status report reflects the activity and progress of testing.
 
-Test Status Report: [Insert the status report from Zephyr - test metrics]
+Test Status Report: ![test status](https://github.com/user-attachments/assets/7ee13eaa-a007-497d-b841-814bb4fbea31)
 1.3 Test Analysis
+
 
 The testing process was executed based on the application requirements. The requirements analysis was done to implement early testing principles.
 
@@ -128,9 +130,10 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 
 As the exit criteria were met and satisfied, the feature is suggested to 'Go Live' by the Testing team.
 
-Traceability Matrix: [Insert image or link to the traceability matrix from Jira]
+Traceability Matrix: [Forward Traceability_28_7_2024.xlsx](https://github.com/user-attachments/files/16404536/Forward.Traceability_28_7_2024.xlsx)
 
-Test Execution Chart: [Insert the execution report from Jira dashboards]
+
+Test Execution Chart: ![test status](https://github.com/user-attachments/assets/7ee13eaa-a007-497d-b841-814bb4fbea31)
 
 The final report shows that 1 test has failed out of a total of 10 tests.
 
