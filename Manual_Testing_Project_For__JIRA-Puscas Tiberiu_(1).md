@@ -11,7 +11,8 @@ Functional specifications:
 The below story describes the functional specifications of the "User Module," for which the final project is performed upon.
 
 Story and Release Details:
-![Story and Release Details]( /mnt/data/screenshot of story and epic and all the elements in the project.png)
+![Story and Release Details](https://github.com/user-attachments/assets/78b6b2f8-9117-4ebe-a553-8f7d4a81b981)
+
 Testing Process
 
 The test process was performed based on the standard test process as described below.
