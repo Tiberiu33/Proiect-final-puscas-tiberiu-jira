@@ -137,7 +137,8 @@ As the exit criteria were met and satisfied, the feature is suggested to 'Go Liv
 Traceability Matrix: [Forward Traceability_28_7_2024.xlsx](https://github.com/user-attachments/files/16404536/Forward.Traceability_28_7_2024.xlsx)
 
 
-Test Execution Chart: ![test status](https://github.com/user-attachments/assets/7ee13eaa-a007-497d-b841-814bb4fbea31)
+Test Execution Chart: 
+![test status](https://github.com/user-attachments/assets/7ee13eaa-a007-497d-b841-814bb4fbea31)
 
 The final report shows that 1 test has failed out of a total of 10 tests.
 
