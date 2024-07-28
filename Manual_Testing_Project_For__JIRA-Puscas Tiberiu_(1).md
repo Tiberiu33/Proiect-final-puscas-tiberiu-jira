@@ -1,152 +1,149 @@
-# Testing Project for **JIRA**
+Final Project Report for ITF Manual Testing Course
+Introduction
 
-The scope of the final project for the ITF Manual Testing Course is to use all the knowledge gained throughout the course and apply it in practice, using a live application.
+The scope of the final project for the ITF Manual Testing Course is to use all the knowledge gained throughout the course and apply it in practice using a live application.
 
-**Application under test**: SPOTIFY
+Application under test: Spotify
 
-**Tools used**: Jira, Zephyr Squad
+Tools used: Jira, Zephyr Squad
 
-## Functional specifications
+Functional specifications:
+The below story describes the functional specifications of the "User Module," for which the final project is performed upon.
 
-The below story was created in Jira and describes the functional specifications of the "**User experience and profile security**" module, for which the final project is performed upon.
+[Insert story images or provide a download link to the stories if more than two]
 
-**Insert the image of the story/stories here (if you have more than two stories, it is recommended to download the stories from Jira and upload them as a file).**
-
-Here you can find the release that was created for this project:
-
-**Insert the image of the release created in Jira. Note: The release should only contain epics, stories, tasks, subtasks, and bugs, but not tests.**
-
-## Testing process
+Release created for this project:
+[Insert image of the release created in Jira, showing epics, stories, tasks, subtasks, and bugs]
+Testing Process
 
 The test process was performed based on the standard test process as described below.
+1.1 Test Planning
 
-### 1.1 Test planning
+The Test Plan is designed to describe all details of testing for all the modules from the Spotify application. The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
 
-The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
+Test Plan Document: [Insert link to the test plan document]
+1.1.1 Roles Assigned to the Project and Persons Allocated
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here: **Insert the link to the test plan document**
+    Project Manager: John Doe
+    Product Owner: Jane Smith
+    Software Developer: Bob Brown
+    QA Engineer: Puscas Tiberiu
 
-#### 1.1.1 Roles assigned to the project and persons allocated
+1.1.2 Entry Criteria Defined
 
-* Project Manager: [Mark Hamlin]
-* Product Owner: [George Marian]
-* Software Developer: [Puscas Tiberiu]
-* QA Engineer: [Puscas Tiberiu]
+    Functional specifications are complete and approved.
+    Test environment is set up and accessible.
+    Test data is prepared.
+    Necessary tools (Jira, Zephyr Squad) are configured.
+    All dependencies are resolved.
 
-#### 1.1.2 Entry criteria defined
+1.1.3 Exit Criteria Defined
 
-* Requirements have been defined and approved.
-* Test environment is set up and stable.
-* Test data is available and prepared.
-* Access to necessary tools and resources.
-* Development is complete and code is deployed to test environment.
+    All planned test cases are executed.
+    All critical and high-severity bugs are resolved or mitigated.
+    Test coverage meets the required standards.
+    All test results are documented.
+    Sign-off from the QA team and stakeholders.
 
-#### 1.1.3 Exit criteria defined
+1.1.4 Test Scope
 
-* All planned test cases have been executed.
-* All critical and major bugs have been fixed or have acceptable workarounds.
-* Test summary report is prepared and reviewed.
-* No open critical defects.
-* Acceptance criteria met as defined in the test plan.
+Tests in Scope:
 
-#### 1.1.4 Test scope
+    Functional testing of user registration, authentication, profile management, social interactions, and preferences/settings.
+    Regression testing.
+    Usability testing on web and mobile devices.
 
-**Tests in scope:**
+Tests Not in Scope:
 
-* Functional testing of user login and registration.
-* Testing playlist creation and management.
-* Verifying search functionality.
-* Ensuring song playback works as expected.
-* Security testing for profile updates, password changes, and two-factor authentication.
-* Testing account deletion and privacy settings.
-* Testing session management and notifications.
+    Performance testing.
+    Load testing.
+    Security testing beyond basic authentication and authorization.
 
-**Tests not in scope:**
+1.1.5 Risks Detected
 
-* Load and performance testing.
-* Testing on legacy or unsupported browsers/devices.
-* End-to-end testing with external integrations.
-* UI/UX design assessments not related to functionality.
+Project Risks:
 
-#### 1.1.5 Risks detected
+    Delays in test environment setup.
+    Limited availability of test data.
 
-**Project risks:**
+Product Risks:
 
-* Delays in test environment setup.
-* Insufficient test data availability.
-* Changes in requirements during testing phase.
+    Potential security vulnerabilities in the authentication module.
+    Inconsistent behavior across different devices.
 
-**Product risks:**
+1.1.6 Evaluating Entry Criteria
 
-* Potential security vulnerabilities in profile management.
-* Functional bugs affecting user experience.
-* Performance issues under high load conditions.
+The entry criteria defined in the Test Planning phase have been achieved, and the test process can continue.
+1.2 Test Monitoring and Control
 
-#### 1.1.6 Evaluating entry criteria
+The monitoring and control phase ensures the test process is on track and any deviations are addressed promptly. The status report reflects the activity and progress of testing.
 
-The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
+Test Status Report: [Insert the status report from Zephyr - test metrics]
+1.3 Test Analysis
 
-### 1.2 Test Monitoring and Control
+The testing process was executed based on the application requirements. The requirements analysis was done to implement early testing principles.
 
-**Insert the reason for the monitoring and control stage and how it was conducted. Include the test status report from Zephyr - test metrics reflecting the activity and progress of the testing.**
+Test Conditions Found:
 
-### 1.3 Test Analysis
+    Verify user can duplicate Playlist (PT-37)
+    Verify user can remove Songs from Playlist (PT-36)
+    Verify user can reorder songs in Playlist (PT-35)
+    Verify user can rename Playlist (PT-34)
+    Verify user can edit and save profile name (PT-32)
+    Verify user can edit profile information (PT-30)
+    Verify user can change profile gender and save settings (PT-26)
+    Verify user can create a new Playlist (PT-25)
+    Verify user can change language from settings (PT-24)
+    Verify users can customize notification preferences (PT-23)
 
-The testing process will be executed based on the application requirements. **(The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - insert the link to the review document if applicable.)**
+1.4 Test Design
 
-The following test conditions were found:
+Functional test cases were created in Zephyr Squad based on the specifications analysis.
 
-**(![test cases](https://github.com/Tiberiu33/Proiect-final-puscas-tiberiu-jira/assets/167067779/228d807f-58f7-4152-b808-d588c38c9907)
-)**
-
-### 1.4 Test Design
-
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here: **Insert the link to the test cases document in PDF, Word, or CSV format.**
-
-### 1.5 Test Implementation
+Test Cases Document: [Insert link to the test cases document]
+1.5 Test Implementation
 
 The following elements need to be ready before the test execution phase begins:
 
-* Test environment setup.
-* Test data preparation.
-* Test scripts reviewed and approved.
-* Test tools configured and validated.
-* Access to necessary resources ensured.
+    Test environment setup.
+    Test data preparation.
+    Access to necessary tools (Jira, Zephyr Squad).
+    Assignment of test cases to testers.
 
-### 1.6 Test Execution
+1.6 Test Execution
 
-Test cases are executed on the created test Cycle summary: **Insert the name of the created test cycle.**
+Test cases were executed in the created test cycle summary: "Spotify User Module Cycle"
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **Insert the link to the document with the identified bugs.**
+Bugs have been created based on the failed tests.
 
-The following is a summary of the bugs that have been found:
+Bug Reports Document: [Insert link to the bug reports document]
 
-**(Failure to change gender priority medium
-Login functionality rejects valid credentials priority medium
+Summary of Bugs Found:
 
-Account deletion functionality is not working properly priority medium.)**
+    PT-26: Failure to change gender and save profile settings (Priority: High, Severity: Critical)
+        Bug: Failure to change gender
+        Bug: Failure to save profile settings
 
-Full regression testing is needed on the impacted areas after the bugs are fixed, and retesting will be done for every functionality that previously failed.
+Full regression testing is needed on the impacted areas after the bugs are fixed, and retesting will be done for every functionality that was previously failed.
+1.7 Test Completion
 
-### 1.7 Test Completion
+As the exit criteria were met and satisfied, the feature is suggested to 'Go Live' by the Testing team.
 
-As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
+Traceability Matrix: [Insert image or link to the traceability matrix from Jira]
 
-The traceability matrix was generated and can be found here: **Insert either a screenshot of the traceability matrix from Jira or a link to the exported Excel file with the traceability matrix. Ensure filtering by type = story.**
+Test Execution Chart: [Insert the execution report from Jira dashboards]
 
-Test execution chart was generated and can be found below:
+The final report shows that 1 test has failed out of a total of 10 tests.
 
-**Insert the test execution report generated from Jira from the dashboards section.**
+A total of 2 bugs were found, with 1 being high priority and 1 being critical severity.
 
-The final report shows that a number **(5)** tests have failed out of a total of **(Insert the number of tests)** tests.
+General Conclusion:
 
-A total of **(Insert the number of bugs)** bugs were found, from which **(Insert the number of high-priority bugs)** are high and **(Insert the number of medium-priority bugs)** are medium.
+    A total of 10 test cases were created and executed.
+    Approximately 90% of the requirements in scope were covered.
+    The failed test case (PT-26) needs immediate attention due to its critical nature.
+    The identified bugs do not prevent the product from going live, but they must be fixed in subsequent releases.
+    Recommendations include ongoing monitoring and regular regression testing.
+    Lessons learned include the importance of thorough test environment setup and ensuring comprehensive test data availability.
 
-**General conclusion of the testing**:
-
-* **Total tests created and executed**: (5)
-* **Percentage of requirements in scope covered**: (100)
-* **Impact of identified bugs on product launch**: (Bugs have been fixed and do not impact the launch of the product)
-* **Identified product risks and mitigation**: (The risks have been solved)
-* **Recommendations for product launch**: (It is recomended to do more black box testing on the user functionality part)
-* **Lessons learned for future projects**: (We learned that more attention to detail is necessary for future projects)
+Overall, the project demonstrated effective application of manual testing principles and tools, ensuring that the Spotify user module meets the required standards for user engagement, security, and experience.
