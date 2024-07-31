@@ -29,8 +29,6 @@ The Test Plan is designed to describe all details of testing for all the modules
 
 #### 1.1.2 Entry Criteria Defined
 - Functional specifications are complete and approved.
-- Test environment is set up and accessible.
-- Test data is prepared.
 - Necessary tools (Jira, Zephyr Squad) are configured.
 - All dependencies are resolved.
 
